@@ -1,0 +1,23 @@
+<ContentPage
+    x:Class="LifeManagementApp.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Life Management">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="16">
+
+            <Label Text="Life Management"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Valitse sovellus:"
+                   FontSize="18" />
+
+            <Button Text="Notes"
+                    Command="{Binding OpenNotesCommand}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

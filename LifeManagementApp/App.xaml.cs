@@ -1,15 +1,17 @@
-﻿namespace LifeManagementApp
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-        }
+﻿using Microsoft.Maui.Controls;
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+namespace LifeManagementApp;
+
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+    }
+
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        // Tämä korvaa vanhan MainPage = new AppShell();
+        return new Window(new AppShell());
     }
 }

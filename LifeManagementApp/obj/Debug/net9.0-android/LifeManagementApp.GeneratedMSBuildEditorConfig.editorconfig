@@ -30,12 +30,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.AppShell
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Omistaja/source/repos/LifeManagementAppi/LifeManagementApp/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/Omistaja/source/repos/LifeManagementAppi/LifeManagementApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.Resources.Styles.Colors.xaml
@@ -47,3 +41,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Omistaja/source/repos/LifeManagementAppi/LifeManagementApp/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/Omistaja/source/repos/LifeManagementAppi/LifeManagementApp/Views/NotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LifeManagementApp.Views.NotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml

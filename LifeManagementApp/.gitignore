@@ -1,0 +1,23 @@
+# Build-kansiot
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# MAUI / mobiilipaketit
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Mac / Windows roskaa
+.DS_Store
+Thumbs.db
