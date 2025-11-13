@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
 using LifeManagementApp.Models;
+using LifeManagementApp.Services;
 using Microsoft.Maui.Controls;
 
 namespace LifeManagementApp.ViewModels
@@ -10,7 +11,7 @@ namespace LifeManagementApp.ViewModels
         private string _newTitle = string.Empty;
         private string _newText = string.Empty;
 
-        public ObservableCollection<Note> Notes { get; } = new();
+        public ObservableCollection<Note> Notes => NotesStore.Notes;
 
         public string NewTitle
         {
@@ -29,13 +30,6 @@ namespace LifeManagementApp.ViewModels
 
         public NotesViewModel()
         {
-            // Testidata: näkyykö edes tämä listassa?
-            Notes.Add(new Note
-            {
-                Title = "Testi",
-                Text = "Tämä on testimuistiinpano",
-                CreatedAt = DateTime.Now
-            });
 
             AddNoteCommand = new Command(AddNote);
             DeleteNoteCommand = new Command<Note>(DeleteNote);
