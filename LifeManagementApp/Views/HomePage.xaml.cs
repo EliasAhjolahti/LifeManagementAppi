@@ -4,9 +4,9 @@ namespace LifeManagementApp.Views;
 
 public partial class HomePage : ContentPage
 {
-    public HomePage()
+    public HomePage(HomeViewModel vm)
     {
         InitializeComponent();
-        BindingContext = new HomeViewModel();
+        BindingContext = vm;
     }
 }

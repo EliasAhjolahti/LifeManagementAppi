@@ -12,8 +12,19 @@
                    FontAttributes="Bold"
                    HorizontalOptions="Center" />
 
-            <Label Text="Valitse sovellus:"
+            <Label Text="Paivan vitsi:"
                    FontSize="18" />
+
+            <Label Text="{Binding JokeOfTheDay}"
+                   FontSize="14"
+                   LineBreakMode="WordWrap" />
+
+            <Button Text="Paivita vitsi"
+                    Command="{Binding LoadJokeCommand}" />
+
+            <Label Text="Valitse sovellus:"
+                   FontSize="18"
+                   Margin="0,20,0,0" />
 
             <Button Text="Notes"
                     Command="{Binding OpenNotesCommand}" />

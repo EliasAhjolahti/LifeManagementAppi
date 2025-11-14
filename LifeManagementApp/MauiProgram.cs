@@ -1,5 +1,9 @@
 ﻿using LifeManagementApp.ViewModels;
 using LifeManagementApp.Views;
+using LifeManagementApp.Interfaces;
+using LifeManagementApp.Services;   
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace LifeManagementApp;
 
@@ -15,6 +19,9 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
+
+        builder.Services.AddSingleton<HttpClient>();
+        builder.Services.AddSingleton<IJokeService, JokeApiService>();
 
         // ViewModels
         builder.Services.AddSingleton<HomeViewModel>();
